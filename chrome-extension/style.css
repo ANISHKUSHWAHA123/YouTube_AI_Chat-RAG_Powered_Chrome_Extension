@@ -1,0 +1,160 @@
+body {
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 10px;
+
+width: 100%;
+
+height: 100vh;
+
+display: flex;
+
+flex-direction: column;
+
+background-color: #f5f5f5;
+
+}
+
+#header {
+
+font-weight: bold;
+
+padding-bottom: 8px;
+
+border-bottom: 1px solid #ddd;
+
+margin-bottom: 10px;
+
+}
+
+#chat-container {
+
+flex: 1;
+
+overflow-y: auto;
+
+margin-bottom: 10px;
+
+width: 95%;
+
+}
+
+#chat-messages {
+
+display: flex;
+
+flex-direction: column;
+
+gap: 10px;
+
+width: 90%;
+
+}
+
+.message {
+
+padding: 10px 12px;
+
+border-radius: 12px;
+
+font-size: 14px;
+
+line-height: 1.5;
+
+max-width: 90%;
+
+word-wrap: break-word;
+
+}
+
+.message.You {
+
+background: #4285f4;
+
+color: white;
+
+align-self: flex-end;
+
+max-width: 85%;
+
+}
+
+.message.Bot {
+
+background: white;
+
+border: 1px solid #e5e5e5;
+
+align-self: flex-start;
+
+max-width: 85%;
+
+}
+
+.message.System,
+.message.Error {
+
+background: #eeeeee;
+
+font-size: 12px;
+
+color: #555;
+
+}
+
+.message.Bot ul {
+
+padding-left: 18px;
+
+}
+
+.message.Bot li {
+
+margin-bottom: 6px;
+
+}
+
+#input-container {
+
+display: flex;
+
+gap: 15px;
+
+}
+
+#question-input {
+
+flex: 1;
+
+resize: none;
+
+padding: 8px;
+
+font-size: 14px;
+
+}
+
+#send-btn {
+
+padding: 10px 20px;
+
+background-color: #4285f4;
+
+color: white;
+
+border: none;
+
+border-radius: 5px;
+
+cursor: pointer;
+
+}
+
+#send-btn:hover {
+
+opacity: 0.9;
+
+}
