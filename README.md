@@ -9,6 +9,7 @@ Frontend: Chrome Extension Side Panel
 ## Demo
 ![Demo](docs/demo.gif)
 ![Chat Interface](docs/demo-chat.png)
+```
 Open YouTube video
 ↓
 Open side panel
@@ -16,7 +17,7 @@ Open side panel
 Ask question
 ↓
 AI response
-
+```
 
 ## Features
 - Ask questions about any YouTube video
@@ -49,6 +50,7 @@ LLM
 
 
 ## Project Structure
+```
 youtube-ai-chat/
 │
 ├── backend/
@@ -71,7 +73,7 @@ youtube-ai-chat/
 ├── README.md
 ├── docs
 └── MIT License
-
+```
 ## Setup
 ### 1 Clone the repo
 git clone https://github.com/yourusername/youtube-ai-chat.git
